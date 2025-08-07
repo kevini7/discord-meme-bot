@@ -4,7 +4,9 @@ import requests
 import random
 
 
-TOKEN = 'MTQwMjQ1Nzc1NjIxMjEzNzk5NA.GMtRfw.NkHLgcFb96hmtkSA9wnDc1dva8pcLxKDRqR_DA'
+import os
+
+TOKEN = os.getenv('TOKEN')
 
 TRIGGER_WORDS = ['meme', 'lol', 'haha', 'joke', 'memes', "retard"]
 
